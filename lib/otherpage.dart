@@ -106,45 +106,6 @@ class op extends StatelessWidget {
               ))
             ],
           ),
-          // child: Card(
-          //   child: Column(
-          //     mainAxisSize: MainAxisSize.min,
-          //     children: <Widget>[
-          //       const ListTile(
-          //         leading: Icon(Icons.album),
-          //         title: Text('A Humorous Story'),
-          //         subtitle: Text('Written by Dummy User'),
-          //         minVerticalPadding: 3,
-          //       ),
-          //       Row(
-          //         mainAxisAlignment: MainAxisAlignment.end,
-          //         children: <Widget>[
-          //           TextButton(
-          //             child: const Text('OPEN'),
-          //             onPressed: () {/* ... */},
-          //           ),
-          //           const SizedBox(width: 8),
-          //         ],
-          //       ),
-          //       const ListTile(
-          //         leading: Icon(Icons.album),
-          //         title: Text('A Humorous Story'),
-          //         subtitle: Text('Written by Dummy User'),
-          //         minVerticalPadding: 3,
-          //       ),
-          //       Row(
-          //         mainAxisAlignment: MainAxisAlignment.end,
-          //         children: <Widget>[
-          //           TextButton(
-          //             child: const Text('OPEN'),
-          //             onPressed: () {/* ... */},
-          //           ),
-          //           const SizedBox(width: 8),
-          //         ],
-          //       ),
-          //     ],
-          //   ),
-          // )),
         ));
   }
 }
