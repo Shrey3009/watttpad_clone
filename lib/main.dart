@@ -110,7 +110,7 @@ class _ApplicationState extends State<Application>
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Image.asset(
-                'assets/image1.jpg',
+                'assets/read.png',
                 height: 150,
                 width: 200,
               ),
@@ -123,9 +123,14 @@ class _ApplicationState extends State<Application>
                       },
                       child: Text(rtext),
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.purple,
+                        primary: Colors.deepOrange,
                       ))),
-              SizedBox(height: 10),
+              SizedBox(height: 15),
+              Image.asset(
+                'assets/write.png',
+                height: 150,
+                width: 200,
+              ),
               SizedBox(
                   width: 200.0,
                   height: 70.0,
@@ -135,7 +140,7 @@ class _ApplicationState extends State<Application>
                       },
                       child: Text(wtext),
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.purple,
+                        primary: Colors.deepOrange,
                       ))),
             ],
           ),
